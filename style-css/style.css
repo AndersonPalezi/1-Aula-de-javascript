@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.logo1 {
+    filter: drop-shadow(8px 4px 4px rgba(36, 34, 34, 50));
+    width: 400px;
+    display: block;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+}
+
+.luigi {
+    background-image: url(../assets/Luigi.png);
+    background-size: 100%;
+    filter: drop-shadow(8px 4px 4px rgba(36, 34, 34, 50));
+    margin-bottom: -700px;
+    background-position: right;
+
+}
+
+.mario {
+    filter: drop-shadow(8px 4px 4px rgba(36, 34, 34, 50));
+    background-image: url(../assets/mario.png);
+    background-size: 100%;
+    margin-bottom: -700px;
+    margin-left: 1200px;
+
+}
+
+body {
+    background-color: aliceblue;
+
+}
+
+main {
+    width: 375px;
+    border-radius: 5px;
+    background-color: rgb(255, 254, 254);
+    margin: 0 auto;
+    padding: 0 10px 5px;
+
+}
+
+label {
+    color: rgb(5, 5, 5);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select,
+input {
+    height: 48px;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid rgb(11, 11, 11);
+    background: whitesmoke;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    font-weight: 800;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button {
+    background: #772Fd3;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.3;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+.botao1 {
+    margin: 20px;
+    padding: 0px;
+    list-style: none;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+    width: 300px;
+    align-items: center;
+    margin-left: 150px;
+}
+.menu{
+    background-color: #26bd26;
+}
+
+
+section {
+    border: 1px solid #09090a;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.arrow-img {
+    margin: 15px 0;
+
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency-value {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.currency,
+currency-value-convert {
+    color: black;
+    font-size: 15px;
+}
+footer{
+    background-color: #26bd26;
+}
+.rede-sociais{
+    margin-left: 41px;
+    display: flex;
+    flex-direction:inherit;
+    align-items:first baseline;
+    margin-left: 11px;
+    
+}
+.mario-luigi {
+    background-image: url("../assets/M&L.png");
+   z-index: -3;
+   background-repeat: no-repeat;
+   margin-bottom: -1250px;
+   width: 100%;
+   margin-top: 5px;
+   display:flex;
+}
+
+   
+    
